@@ -4455,6 +4455,84 @@
       "artifacts": [
         "TickMath"
       ]
+    },
+    "D:\\Projects\\damn-vulnerable-defi\\contracts\\side-entrance\\SideEntranceAttack.sol": {
+      "lastModificationDate": 1679309804311,
+      "contentHash": "ac1352c1d9015882b9fa002937730416",
+      "sourceName": "contracts/side-entrance/SideEntranceAttack.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SideEntranceLenderPool.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SideEntranceAttack"
+      ]
+    },
+    "D:\\Projects\\damn-vulnerable-defi\\contracts\\the-rewarder\\RewarderAttack.sol": {
+      "lastModificationDate": 1679559481662,
+      "contentHash": "dd5f58c565bd1828a5b3990fa80f239e",
+      "sourceName": "contracts/the-rewarder/RewarderAttack.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "DamnValuableToken_",
+        "FlashLoanerPool_",
+        "RewardToken_",
+        "RewarderAttack",
+        "TheRewarderPool_"
+      ]
     }
   }
 }
