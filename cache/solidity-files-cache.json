@@ -950,8 +950,8 @@
       "artifacts": []
     },
     "D:\\Projects\\damn-vulnerable-defi\\contracts\\selfie\\SelfiePool.sol": {
-      "lastModificationDate": 1679212749698,
-      "contentHash": "bcbd38b913eccfe77aa4264fd8483068",
+      "lastModificationDate": 1679651508139,
+      "contentHash": "03f10475a7512c869021b33f8bafd38d",
       "sourceName": "contracts/selfie/SelfiePool.sol",
       "solcConfig": {
         "version": "0.8.16",
@@ -992,8 +992,8 @@
       ]
     },
     "D:\\Projects\\damn-vulnerable-defi\\contracts\\selfie\\SimpleGovernance.sol": {
-      "lastModificationDate": 1679212749698,
-      "contentHash": "edc444d6f37228c9e3f8817c3617ec1b",
+      "lastModificationDate": 1679649480115,
+      "contentHash": "859bc300c2eee3d69d1c3685db32d975",
       "sourceName": "contracts/selfie/SimpleGovernance.sol",
       "solcConfig": {
         "version": "0.8.16",
@@ -4532,6 +4532,84 @@
         "RewardToken_",
         "RewarderAttack",
         "TheRewarderPool_"
+      ]
+    },
+    "D:\\Projects\\damn-vulnerable-defi\\contracts\\selfie\\SelfieAttack.sol": {
+      "lastModificationDate": 1679651361327,
+      "contentHash": "4313d2659704dfb3754cd5808e4d5805",
+      "sourceName": "contracts/selfie/SelfieAttack.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./ISimpleGovernance.sol",
+        "../DamnValuableTokenSnapshot.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ISelfiePool",
+        "SelfieAttack"
+      ]
+    },
+    "D:\\Projects\\damn-vulnerable-defi\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1679261365106,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
